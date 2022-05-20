@@ -317,7 +317,9 @@ public class Main implements java.io.Serializable{
 			points++;
 		}
 		else {
-			System.out.println("Thats not quite right. You probably picked 0 or some other idiot answer, anyway Bob attacks at a max hit of 10.5 12 times during the trip.");
+			System.out.println("Thats not quite right. You may have picked 0 because you thought this was"
+					  + "a trick question or didn't want to read the block of text.\n" 
+					  + "Anyways, Bob attacks at a max hit of 10.5, and hits 12 times during the trip.");
 		}
 		sleep();
 		System.out.println();
