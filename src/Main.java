@@ -243,7 +243,7 @@ public class Main implements java.io.Serializable{
 				return;  //end fight
 			}
 			else {
-				System.out.println("Run failed, get fkt");
+				System.out.println("Run failed, you are simply too slow or possibly too low level.");
 				e.turn(chr, rad);  //run failed
 
 				if(chr.isDead()) {  //check if char dead
@@ -340,10 +340,13 @@ public class Main implements java.io.Serializable{
 			chr.setSP(1);
 		}
 		else if(points==2) {
-			System.out.println("You have done okay. I don't know who you are, but take ummm well you can have like respect.");
+			System.out.println("You have done okay. I don't know who you are, but take- well, take my respect. But you don't get anything");
+		}
+		else if(points==1){
+			System.out.println("At least you didn't get all of them wrong.");
 		}
 		else {
-			System.out.println("Idiot! LOSER!");
+			System.out.println("At least you're not... in jail.");
 		}
 	}
 
