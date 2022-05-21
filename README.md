@@ -1,9 +1,11 @@
 # lavenderRPG
 Object oriented text-based RPG game 
 
-future implementations include:
+current functionalities include:
+- save and load using serializable
+- sound
 
-- save function using serializable
+future implementations include:
 
 - timestamp based seeds for more accurate RNG
 
